@@ -41,8 +41,12 @@
             <hr />
 
             <asp:ImageMap ID="ImageMap1" runat="server" HotSpotMode="NotSet" ImageUrl="~/imagens/52349.png">
-                <asp:CircleHotSpot NavigateUrl="https://pt.wikipedia.org/wiki/Estados_Unidos" Radius="67" X="343" Y="371" />
+                <asp:CircleHotSpot NavigateUrl="https://pt.wikipedia.org/wiki/Estados_Unidos" Radius="67" X="343" Y="371" AlternateText="Estados Unidos" />
             </asp:ImageMap>
+
+            <br />
+
+
             
         </div>
     </form>

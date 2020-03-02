@@ -71,12 +71,28 @@
     <Content Include="imagens\agreement.png" />
     <Content Include="imagens\google_chrome_story_1532507920194-720x405.jpg" />
     <Content Include="imagens\Google_Lens_-_new_logo.png" />
+    <Content Include="UseMultiView.aspx" />
+    <Content Include="UseTreeView.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UseMultiView.aspx.cs">
+      <DependentUpon>UseMultiView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UseMultiView.aspx.designer.cs">
+      <DependentUpon>UseMultiView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UseTreeView.aspx.cs">
+      <DependentUpon>UseTreeView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UseTreeView.aspx.designer.cs">
+      <DependentUpon>UseTreeView.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
