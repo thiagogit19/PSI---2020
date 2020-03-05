@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PageMasterMaster.master.cs" Inherits="MASTERPAGESITE.PageMasterMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color: #00CC99">
+    <form id="form1" runat="server">
+        <div>
+            <table style="width: 100%;">
+                <tr>
+                    <td >
+                        <asp:Menu ID="Menu1" runat="server">
+                            <Items>
+
+                                <asp:MenuItem NavigateUrl="~/WebMaster.aspx" Text="Página inicial" Value="Página inicial"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/capitulos.aspx" Text="Capítulos" Value="Capítulos"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Projetos.aspx" Text="Projetos" Value="Projetos"></asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+                    </td>
+
+                    <td>
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/banner-de-site-profissional-com-formas-azuis_1361-1531.jpg" />
+                    </td>
+
+                </tr>
+            </table>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
